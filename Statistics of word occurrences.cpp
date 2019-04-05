@@ -1,4 +1,3 @@
-//516021910717-Ò×ĞËî£-3-5
 #include <iostream>
 #include<string.h>
 #include<iomanip>
@@ -10,7 +9,7 @@ int main()
     string str[1000],str2[1000];
     int num[1000];
     for (int i=0;i<1000;++i)
-      num[i]=0;//³õÊ¼»¯¼ÆÊıÆ÷
+      num[i]=0;//åˆå§‹åŒ–è®¡æ•°å™¨
     for (int i=0;i<1000;++i)
     {
       while(1)
@@ -26,7 +25,7 @@ int main()
         if(c<39||(c>39&&c<45)||(c>45&&c<65)||c>122||(c>90&&c<97))
         break;
        }
-    }//½«Êı¾İ°´µ¥´ÊĞÎÊ½µ¼ÈëÊı×é£¬²¢°ÑËùÓĞ´óĞ´×ª»¯ÎªĞ¡Ğ´
+    }//å°†æ•°æ®æŒ‰å•è¯å½¢å¼å¯¼å…¥æ•°ç»„ï¼Œå¹¶æŠŠæ‰€æœ‰å¤§å†™è½¬åŒ–ä¸ºå°å†™
       for(int i=0;i<1000;++i)
       {
           if(str[i]!=" ")
@@ -41,11 +40,11 @@ int main()
                   }
           }
           else continue;
-      }//Í³¼Æµ¥´Ê¸öÊı²¢½«²»Í¬µÄµ¥´Ê´æ½østr2
+      }//ç»Ÿè®¡å•è¯ä¸ªæ•°å¹¶å°†ä¸åŒçš„å•è¯å­˜è¿›str2
     n=strlen(str2[0].c_str());
     for(int i=1;i<1000;++i)
         if(int(strlen(str2[i].c_str()))>n)
-           n=strlen(str2[i].c_str());//ÕÒ³ö×î³¤µÄµ¥´Ê³¤¶È
+           n=strlen(str2[i].c_str());//æ‰¾å‡ºæœ€é•¿çš„å•è¯é•¿åº¦
     for(int i=0;i<1000;++i)
        if(strlen(str2[i].c_str())!=0)
        {
@@ -53,13 +52,13 @@ int main()
            if(str2[i]=="i")
               str2[i]="I";
            if(str2[i]=="i'm")
-              str2[i]="I'm";//×ª»¯ÁĞÍâÇé¿ö
+              str2[i]="I'm";//è½¬åŒ–åˆ—å¤–æƒ…å†µ
            cout<<left<<setw(n+2)<<str2[i]<<setw(5)<<num[i];
            if(n2>4)
            {
              cout<<endl;
              n2=0;
-           }//°´±í¸ñĞÎÊ½Êä³ö
+           }//æŒ‰è¡¨æ ¼å½¢å¼è¾“å‡º
        }
     return 0;
 }
