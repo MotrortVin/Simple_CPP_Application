@@ -1,2 +1,2 @@
 # Simple_CPP_Application
-Some simple C++ application. (Mainly about my homework in SJTU)
+It mainly includes some C++ codes for simple applications.
