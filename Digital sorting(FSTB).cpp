@@ -1,5 +1,5 @@
-//File:ÊäÈëÊý×Ö¾ÍÅÅÐò.cpp
-//ÊäÈëÒ»¸öÕýÕûÊýn£¬È»ºóÔÙÊäÈën¸öÕûÊý£¬½«ËüÃÇÅÅÐòºóÊä³ö¡£
+//File:è¾“å…¥æ•°å­—å°±æŽ’åº.cpp
+//è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°nï¼Œç„¶åŽå†è¾“å…¥nä¸ªæ•´æ•°ï¼Œå°†å®ƒä»¬æŽ’åºåŽè¾“å‡ºã€‚
 #include <iostream>
 #include <stdlib.h>
 
